@@ -1,6 +1,6 @@
 import os
 from fastapi import FastAPI, HTTPException, Security, Depends
-from fastapi.security.api_key import API_KEY_HEADER, APIKeyHeader
+from fastapi.security.api_key import APIKeyHeader
 from pydantic import BaseModel
 
 # This is the name of the "Security Badge" the user must show
